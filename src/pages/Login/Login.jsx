@@ -117,12 +117,12 @@ const Login = () => {
                 placeholder="Type the text above"
                 name="captcha"
                 className="input input-bordered"
-                required
+                // required
               />
               <button onClick={handleValidateCaptcha} className='btn btn-outline btn-xs mt-2'>Validate</button>
             </div>
             <div className="form-control mt-6">
-              <input type="submit" disabled={disabled} value="Login" className="btn btn-primary"/>
+              <input type="submit" disabled={false} value="Login" className="btn btn-primary"/>
             </div>
           </form>
           <Link to='/signup'>New Here?</Link>
